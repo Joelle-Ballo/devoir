@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ballo Joelle Marie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-name">
+                <h2>Marie <span class="surname">Joelle</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#apropos" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projets" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#competences" class="nav-link">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Je suis Joelle Marie, <span class="highlight">Développeur en devenir</span></h1>
+                <p>passionné par le web et le design !</p>
+                <a href="#projets" class="cta-button">Voir mes projets</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/code.png" alt="Illustration développement web">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Je m'appelle Ballo, passionnée par la création de sites web modernes et interactifs</h3>
+                    <p>Je suis actuellement étudiante en développement web, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                    <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+                    <a href="medias/cv_joelle.pdf" download="cv_joelle_ballo.pdf" class="download-cv">
+                        <i class="fas fa-download"></i>
+                        Télécharger mon CV
+                    </a>
+                </div>
+                <div class="about-image">
+                    <img src="images/joelle.jpg" alt="Photo de profil">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Un mini-jeu interactif en JavaScript</h3>
+                        <p>qui utilise des événements DOM.</p>
+                        <div class="project-tags">
+                            <span class="tag">#html</span>
+                            <span class="tag">#css</span>
+                            <span class="tag">#js</span>
+                        </div>
+                        <a href="#" class="project-link">Voir</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Un mini-jeu interactif en JavaScript</h3>
+                        <p>qui utilise des événements DOM.</p>
+                        <div class="project-tags">
+                            <span class="tag">#html</span>
+                            <span class="tag">#css</span>
+                            <span class="tag">#js</span>
+                        </div>
+                        <a href="#" class="project-link">Voir</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Un mini-jeu interactif en JavaScript</h3>
+                        <p>qui utilise des événements DOM.</p>
+                        <div class="project-tags">
+                            <span class="tag">#html</span>
+                            <span class="tag">#css</span>
+                            <span class="tag">#js</span>
+                        </div>
+                        <a href="#" class="project-link">Voir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-container">
+                <div class="soft-skills">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-item">
+                        <span>Gestion de projet</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Résolution de problème</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Adaptabilité</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hard-skills">
+                    <h3>Hard Skills</h3>
+                    <div class="skill-item">
+                        <span>HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%;" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>VS Code</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-header">
+                <h2>Vous avez un projet en tête ?</h2>
+                <p>N'hésitez pas à me contacter</p>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Joelle Marie" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom" placeholder="Ballo" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="sujet">Votre sujet</label>
+                    <input type="text" id="sujet" name="sujet" placeholder="Développement d'un site vitrine" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Écrivez votre message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed by [Joelle Marie] with HTML CSS JS</p>
+            <p> © Tous droits réservés - 2025</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
